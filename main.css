@@ -1,0 +1,104 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    /* font-size: 15px; */
+    padding: 0;
+}
+
+p {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+    border-color: black;
+    border-radius: 1px;
+    margin-bottom: 20px;
+    font-size: large;
+    max-width: 78%;
+    color: aliceblue;
+    background-color: darkslateblue;
+    justify-content: center;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    line-height: 1.5;
+    margin-top: -20px;
+    margin-bottom: -20px;
+    /* background-image: url(images/backrougnd.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* .background {
+    opacity: .5;
+} */
+
+.heads {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: xx-large;
+    color: aliceblue;
+    background-color: darkslateblue;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-content: right;
+    justify-content: center;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: right;
+}
+
+/* 
+.gallery {
+    display: flex;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 5vw);
+    grid-gap: 1.5rem;
+    padding-top: 20px;
+    flex-direction: column; */
+
+/* } */
+.gallery_img {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: black;
+    align-content: right;
+    justify-content: right;
+    flex: 0, 1, auto;
+}
+
+.gallery_img:hover {
+    background-color: black;
+    border: 4px solid black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* .buttoncontainer {
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-content: center;
+} */

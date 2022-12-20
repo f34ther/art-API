@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Art Gallery</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js" defer></script>
+</head>
+
+<body>
+    <div class="heads">
+        <h4>Images from the Ancient Chinese exhibit</h4>
+    </div>
+    <div class="container">
+        <div class="gallery">
+            <figure class="gallery_item" id="fig1" onclick="event.stopPropagation(); getInfo(this.id,event)">
+                <img src="images/butterfly_headdress1.png" alt="J6210">
+            </figure>
+            <p>Butterfly Head Piece</p>
+            <figure class="gallery_item" id="fig3" onclick="event.stopPropagation(); getInfo(this.id,event)">
+                <img src="images/tiara_dragons1.png" alt="J6216">
+            </figure>
+            <p>Dragons on a Tiara</p>
+            <figure class="gallery_item" id="fig2" onclick="event.stopPropagation(); getInfo(this.id,event)">
+                <img src="images/kingfisherheaddress1.png" alt="J7021">
+            </figure>
+            <p> Kingfisher Feathered Headdress</p>
+
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
