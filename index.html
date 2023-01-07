@@ -20,19 +20,33 @@
     </div>
     <div class="container">
         <div class="gallery">
-            <figure class="gallery_item" id="fig1" onclick="event.stopPropagation(); getInfo(this.id,event)">
-                <img src="images/butterfly_headdress1.png" alt="J6210">
+            <figure class="gallery_item" id="fig1">
+                <img src="images/butterfly_headdress1.png" alt="244269">
             </figure>
-            <p>Butterfly Head Piece</p>
-            <figure class="gallery_item" id="fig3" onclick="event.stopPropagation(); getInfo(this.id,event)">
-                <img src="images/tiara_dragons1.png" alt="J6216">
-            </figure>
-            <p>Dragons on a Tiara</p>
-            <figure class="gallery_item" id="fig2" onclick="event.stopPropagation(); getInfo(this.id,event)">
-                <img src="images/kingfisherheaddress1.png" alt="J7021">
-            </figure>
-            <p> Kingfisher Feathered Headdress</p>
+            <button type="button" id='fig1' class="collapsible"
+                onclick="event.stopPropagation(); getInfo(this.id,event,'p1')">Butterfly Head Piece</button>
+            <div class="content">
+                <p id='p1'></p>
 
+            </div>
+            <figure class="gallery_item" id="fig3">
+                <img src="images/tiara_dragons1.png" alt="244273">
+                <button type="button" id='fig3' class="collapsible col-1"
+                    onclick="event.stopPropagation(); getInfo(this.id,event,'p3')">Dragons on a Tiara</button>
+                <div class="content">
+                    <p id='p3'></p>
+                </div>
+            </figure>
+            <figure class="gallery_item" id="fig2">
+                <img src="images/kingfisherheaddress1.png" alt="244268">
+                <button type="button" id='fig2' class="collapsible col-1"
+                    onclick="event.stopPropagation(); getInfo(this.id,event,'p2')">Kingfisher Feathered
+                    Headdress</button>
+                <div class="content">
+                    <p id='p2'></p>
+
+                </div>
+            </figure>
         </div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
